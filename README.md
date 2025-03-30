@@ -1,0 +1,2 @@
+# Build-Smart-object-detection-YOLO-ask-AI-to-identify-phones-people-book-in-your-images
+This Streamlit app allows you to upload an image and ask it to identify specific objects (phone, person, book) using a pre-trained YOLOv5 model. The app processes the image, runs object detection, and highlights detected objects by drawing bounding boxes. You can query the app by asking if a specific object is present in the image.
