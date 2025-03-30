@@ -19,7 +19,6 @@ Allows the user to query whether a specific object is present in the image
 Example Queries You Can Ask
 - "Is there a phone?"
 - "Do you see a pen?"
-- "Are there any glasses?"
 - "Is there a person in the image?"
 
 Notes
