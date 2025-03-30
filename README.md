@@ -6,6 +6,7 @@ Features:
 - Upload an image (JPEG, PNG, or JPG).
 - Detects specific objects: phone, pen, glasses, and person.
 - Ask the app: Query whether a particular object is in the image (e.g., "Is there a phone?").
+- Ask the app for an object that you know is not there.
 - Visual feedback: Displays the image with bounding boxes drawn around detected objects.
 
 How It Works:
