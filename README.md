@@ -82,7 +82,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ![image](https://github.com/user-attachments/assets/c9b0d585-160d-4d6d-9017-bf442d7b7f86)
 
-![image](https://github.com/user-attachments/assets/8eca31a0-0b10-4b20-8164-35e005696ac0)
+![image](https://github.com/user-attachments/assets/88ab920c-04e1-40a5-9c0d-71ecdbf3f2a8)
 
 ![image](https://github.com/user-attachments/assets/e19872ac-4822-4985-9550-1b6f841a1e4f)
 
