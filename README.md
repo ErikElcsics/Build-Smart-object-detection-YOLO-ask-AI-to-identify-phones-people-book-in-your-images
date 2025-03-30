@@ -40,7 +40,7 @@ Cloning the Repository
 To use the YOLO Object Detection app locally, follow these steps:
 
 1. Clone the Repository
-git clone https://github.com/yourusername/yolo-object-detection-app.git
+git clone https://github.com/ErikElcsics/Build-Smart-object-detection-YOLO-ask-AI-to-identify-phones-people-book-in-your-images.git
 cd yolo-object-detection-app
 
 Installation Instructions
@@ -66,7 +66,7 @@ pip install streamlit torch torchvision opencv-python pillow ultralytics
 
 4. Run the App
 Once the dependencies are installed, you can run the Streamlit app using the following command:
-streamlit run yolo_object_detector.py
+streamlit run Smart_Yolo_Object_Detector.py
 This will start the app and open it in your default web browser.
 
 How to Use the App
@@ -75,7 +75,8 @@ How to Use the App
 	- "Is there a phone?"
 	- "Do you see a pen?"
 	- "Are there any glasses?"
-	- "Is there a person in the image?"
+	- "Is there a person in the image?" 
+        - Also ask for objects that you know are not in the picture
 
 The app will respond with either a confirmation or a warning based on the detection.
 
@@ -86,6 +87,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ![image](https://github.com/user-attachments/assets/8eca31a0-0b10-4b20-8164-35e005696ac0)
 
-![image](https://github.com/user-attachments/assets/356046a3-65e2-4787-b6ca-9ee59cdcb8c9)
+![image](https://github.com/user-attachments/assets/e19872ac-4822-4985-9550-1b6f841a1e4f)
+
 
 
