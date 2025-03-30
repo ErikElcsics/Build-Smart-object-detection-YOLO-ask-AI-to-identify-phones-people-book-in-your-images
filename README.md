@@ -74,7 +74,7 @@ How to Use the App
 	- "Do you see a pen?"
 	- "Are there any glasses?"
 	- "Is there a person in the image?" 
-        - Also ask for objects that you know are not in the picture
+        - Also, ask for objects that you know are not in the picture
 
 The app will respond with either a confirmation or a warning based on the detection.
 
