@@ -2,14 +2,14 @@
 
 This Streamlit app allows you to upload an image and ask it to identify specific objects (phone, person, book) using a pre-trained YOLOv5 model. The app processes the image, runs object detection, and highlights detected objects by drawing bounding boxes. You can query the app by asking if a specific object (e.g., "Is there a phone?") is present in the image.
 
-Features:
+# Features:
 - Upload an image (JPEG, PNG, or JPG).
 - Detects specific objects: phone, pen, glasses, and person.
 - Ask the app: Query whether a particular object is in the image (e.g., "Is there a phone?").
 - Ask the app for an object that you know is not there.
 - Visual feedback: Displays the image with bounding boxes drawn around detected objects.
 
-How It Works:
+# How It Works:
 - Uploads an image using Streamlit
 - Runs YOLOv5 to detect objects in the image
 - Filters detections to only include phone, pen, glasses, person
@@ -17,31 +17,31 @@ How It Works:
 
 Allows the user to query whether a specific object is present in the image
 
-Example Queries You Can Ask
+# Example Queries You Can Ask
 - "Is there a phone?"
 - "Do you see a pen?"
 - "Is there a person in the image?"
 
-Notes
+# Notes
 This app uses YOLOv5s, a lightweight model trained on COCO dataset.
 You can extend this by adding more objects, changing model weights, or improving UI.
 The app is optimized for simplicity, making it fast and easy to use.
 
-Libraries Used:
+# Libraries Used:
 - Streamlit: For building the web app.
 - YOLOv5: For object detection (using the ultralytics package).
 - OpenCV and Pillow: For image manipulation. CV2
 - NumPy
 - Torch
 
-Cloning the Repository
+# Cloning the Repository
 To use the YOLO Object Detection app locally, follow these steps:
 
 1. Clone the Repository
 git clone https://github.com/ErikElcsics/Build-Smart-object-detection-YOLO-ask-AI-to-identify-phones-people-book-in-your-images.git
 cd yolo-object-detection-app
 
-Installation Instructions
+# Installation Instructions
 Follow these steps to set up the project and run the app on your local machine.
 
 2. Set Up a Virtual Environment (optional but recommended)
@@ -62,12 +62,12 @@ source venv/bin/activate
 Install the necessary packages directly using:
 pip install streamlit torch torchvision opencv-python pillow ultralytics
 
-4. Run the App
+# Run the App
 Once the dependencies are installed, you can run the Streamlit app using the following command:
 streamlit run Smart_Yolo_Object_Detector.py
 This will start the app and open it in your default web browser.
 
-How to Use the App
+# How to Use the App
 - Upload an image: Choose a .jpg, .jpeg, or .png image that you want to test. The app will automatically detect objects from the allowed list (phone, pen, glasses, and person) and display bounding boxes around detected objects.
 - Ask a question: Use the text input box to ask if a specific object (e.g., "Is there a phone?") is present in the image.
 	- "Is there a phone?"
